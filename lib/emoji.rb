@@ -15,7 +15,6 @@ module Emoji
   def all
     return @all if defined? @all
     @all = []
-    parse_data_file
     @all
   end
 
